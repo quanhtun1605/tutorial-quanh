@@ -1,7 +1,11 @@
 Rails.application.routes.draw do
+
+  # rule for Microposts resources.
+  resources :microposts
+  # The Rails routes, with a rule for the Users resource.
   resources :users
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
   # Setting the root route.
-  root 'application#hello'
+  # Adding a root route for users.
+  root 'users#index'
 end
