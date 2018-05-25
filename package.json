@@ -1,5 +1,8 @@
 {
   "name": "railsmysql",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "npm": "^6.1.0",
+    "yarn": "^1.7.0"
+  }
 }
